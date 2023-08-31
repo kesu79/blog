@@ -52,8 +52,8 @@ a {
 }
 
 .post {
-    border: 1px solid yellow;
-    background-color: rgba(235, 141, 199, 0.916);
+    border: 4px solid rgb(2, 2, 0);
+    background-color: rgba(237, 204, 224, 0.916);
 
     margin-bottom: 10px;
     padding: 10px;
@@ -73,22 +73,28 @@ a {
 .post__title {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 35px;
+    font-size: 27px;
     margin-bottom: 20px;
+    font-style: oblique;
 }
 
 .post__img {
     width: 250px;
-    border-radius: 130px;
+    border-radius: 500px;
     margin-bottom: 15px;
+
 }
 
 .post__body {
     text-align: justify;
-    color: blue;
+    color: rgb(29, 0, 27);
+    size-adjust: 50px 100px;
+    font-style: italic;
+     font-size: 26px;
 }
 .footer{
      min-height: 80px;
 background-color: #ff29e641;
  color: blueviolet;
 }
+
